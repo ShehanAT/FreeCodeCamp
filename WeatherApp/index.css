@@ -1,0 +1,61 @@
+.container{
+	max-width:960px;
+	+clearfix
+	background-color:blue;
+	font-size:20px;
+}
+body{
+background-image:C:\Users\Dell\Desktop\freeCodeCamp\testing\RandomQuoteMachine\img\weather.png;
+font-size:px;
+background-size:100% 100%;
+background-color:#eeeeee; font-family: HelveticaNeue-Light, Helvetica Neue Light, Helverica Neue, Helvetica, Arial, Lucida Grande, sans-serif; font-weight: 500;font-size:14px;color:#1e1e1e;}
+}
+h1{
+	font-size:Georgia, serif; font-style:italic; color:#004060;
+}
+h1{
+	background-color:#004060; color:#ffffff; 
+}
+h1, h1:visited{ color:#006699; text-decoration: none; }
+.temperature{
+	border:5px solid black;
+	background-color:#eeeeee;
+	}
+.climate_bg{
+	border:5px solid black;
+	background-color:#eeeeee;
+}
+.location{
+	border:5px solid black;
+	background-color:#eeeeee;
+}
+
+.humidity{
+	border:5px solid black;
+	background-color:#eeeeee;
+}
+.windspeed{
+	border:5px solid black;
+	background-color:#eeeeee;
+	
+	}
+.update{
+	font-size:10px;
+	background-color:#eeeeee;
+	
+}
+h1{
+	font-size:100px;
+	font-family:San-serif;
+	text-align:center;
+}
+
+.weather-forecast{
+	background-color:#eeeeee;
+	font-family:San-serif;
+	
+}
+ul{
+	list-style-type: circle;
+	color:#004060; font-size: 16px; font-weight: bold;
+}
