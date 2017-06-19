@@ -8,3 +8,4 @@
 [remote "origin"]
 	url = https://github.com/ShehanAT/FreeCodeCamp.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
+<!DOCTYPE HTML>
