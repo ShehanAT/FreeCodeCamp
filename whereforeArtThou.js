@@ -18,3 +18,18 @@ function whatIsInAName(collection, source) {
 }
 
 whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" });
+
+// Better, shorter solution 
+ 
+function whereforeArtThou2(collection, source){ 
+   var srcKeys = Object.keys(source);
+   return collection.filter(function(obj){
+	return srcKeys.every(function(key){
+	 return obj.hasOwnProperty(key) && obj[key] === source[key];
+});
+});
+}
+
+  
+//
+whereforeArtThou2([{ "a": 1, "b":2 }, { "a": 1}, { "a": 1, "b": 2, "c":2 }], { "a": 1,"c":2});
