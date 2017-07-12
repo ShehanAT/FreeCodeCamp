@@ -7,7 +7,7 @@ function fearNotLetter(str) {
     }
     if (word.charCodeAt(i + 1) - word.charCodeAt(i) == 2){
       counter += 1;
-      return String.fromCharCode(word.charCodeAt(i) + 1);
+      return String.fromCharCode(word.charCodeAt(i) + 1);//using console.log creates multiple, using return: only one 
     }
   }
 	if (counter == 0){
