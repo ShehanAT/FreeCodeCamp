@@ -3,7 +3,7 @@ function whatIsInAName(collection, source) {
   var arr = collection.filter(function(item){
     for (var i in source){
       if (source[i] != item[i]){
-        return false;
+        return false;//if the all the source equals any of the items return true for the item.
       }
     }
     return true;
