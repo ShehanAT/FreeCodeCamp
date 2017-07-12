@@ -1,3 +1,5 @@
+
+//function checks for source to item not from item to source
 function whatIsInAName(collection, source) {
   // What's in a name?
   var arr = collection.filter(function(item){
