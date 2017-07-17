@@ -1,4 +1,5 @@
 //NEED TO UNDERSTAND HOW THE MATH WAS TRANSLATED 
+// BY STEPHAN MAYEUX
 function smallestCommons(arr) {
   var min = Math.min(arr[0], arr[1]);
   var max = Math.max(arr[0], arr[1]);
