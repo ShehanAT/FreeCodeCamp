@@ -2,6 +2,7 @@
 function dropElements(arr, func) {
   // Drop them elements.
   while(!func(arr[0])){//  ! MEANS FALSE, REMOVE THE THE FIRST OF ARR AS LONG AS THE GIVEN VALUE RETURNS FALSE
+    // arr[0] IS n
     arr.shift();//SHIFT REMOVES THE FIRST ELEMENT OF THE ARRAY 
   }
   return arr;
