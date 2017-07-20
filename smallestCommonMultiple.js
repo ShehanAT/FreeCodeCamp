@@ -22,7 +22,7 @@ function smallestCommons(arr) {
         b %= a;
       }
     }
-    a = Math.abs(c * range[i] / (a + b));
+    a = Math.abs(c * range[i] / (a + b));//THIS VALUE WILL BE COMPARED TO THE NEXT NUM IN RANGE IN THE WHILE LOOP
   }//
   return a;
 }
