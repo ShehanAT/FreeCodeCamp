@@ -1,5 +1,5 @@
 function binaryAgent(str) {
-  var placeholder = str.split(" ").map(function(value){// MAP ITERATES THRU ALL STRINGS IN THE PLAC
+  var placeholder = str.split(" ").map(function(value){// MAP ITERATES THRU ALL STRINGS IN THE PLACEHOLDER ARRAY
     
     return String.fromCharCode(parseInt(value,2));// CONVERT BINARY STRINGS TO ENGLISH, THE 2 TELLS THE COMPUTER THAT THE GIVEN STRING IS IN BINARY 
   }).join("");
