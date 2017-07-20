@@ -11,7 +11,7 @@ function smallestCommons(arr) {
 
   var a = Math.abs(range[0]);
 
-  for (var i = 1; i < range.length; i++) {
+  for (var i = 1; i < range.length; i++) {//THIS IS WHERE THE LCM OF TEO GIVEN NUMBERS IN CACULATED
     var b = Math.abs(range[i]);
     var c = a;
 
@@ -23,7 +23,7 @@ function smallestCommons(arr) {
       }
     }
     a = Math.abs(c * range[i] / (a + b));
-  }
+  }//
   return a;
 }
 
