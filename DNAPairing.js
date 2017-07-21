@@ -19,3 +19,4 @@ function PairingDNA(str){
 
 
 }
+pairingDNA("GCG");
