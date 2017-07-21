@@ -5,7 +5,7 @@ function truthCheck(collection, pre){
     }
 }
   for (var i = 0 ; i < collection.length ; i++){
-    while (collection[i][pre]){//WHILE ANY SUB ARR
+    while (collection[i][pre]){//WHILE ANY SUB ARRAY IN COLLECTION HAS A TRUE PRE PROTERTY RETURN TRUE
       return true;
     }
   }
