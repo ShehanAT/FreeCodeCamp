@@ -28,21 +28,6 @@ var collection = {
 // Keep a copy of the collection for tests
 var collectionCopy = JSON.parse(JSON.stringify(collection));
 
-// Only change code below this line
-// make if statements that check
-//function updateRecords(id, prop, value) {
-// if (value === ""){
- //  delete collection[id][prop];
-// }
-// else if (prop !== "tracks"){
-//   collection[id][prop] = value;
-  
-// }
-//  else{
-//  collection[id][prop].push(value);
-//  }
-//  return collection;
-//}
 function updateRecords(id, prop, value) {
   if (prop === "tracks" && value !== "") {
    if(collection[id][prop]) {
