@@ -16,3 +16,14 @@ function diffArray(arr1, arr2) {
 }
 
 diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
+// Stephan Mayeux version
+function diffArray(arr1, arr2){
+  var holderArr = arr1.concat(arr2);
+  return holderArr.filter(function(value, index, array){
+    if (array.slice(index + 1).indexOf === -1 && array.slice(0, index).indexOf(value) === -1){
+     return value;; 
+    }
+  
+  });
+  
+}
